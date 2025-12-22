@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+/* swiper styles */
+@import "swiper/css";
+@import "swiper/css";
+@import "swiper/css/pagination";
+@import "swiper/css/navigation";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --swiper-pagination-color: #9fb43b;
+  --primary-green: #9fb43b;
+  --card-bg: #283334;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    --swiper-pagination-color: #9fb43b;
+    --primary-green: #9fb43b;
+    --card-bg: #283334;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-covered-grace), cursive; /* use the CSS variable directly */
+    line-height: 1.6;
+    letter-spacing: 1px;
+  }
+}
+
+.grace {
+  font-family: "covered-grace", sans-serif;
+}
+
+@layer utilities {
+  .animate-fadeIn {
+    @apply transition-opacity duration-300 opacity-0;
+    animation: fadeIn 0.3s forwards;
+  }
+
+  .swiper .swiper-wrapper {
+    padding-bottom: 30px;
+  }
+  .swiper .swiper-pagination .swiper-pagination-bullet-active {
+    background: var(--swiper-pagination-color) !important;
+  }
+
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+.timeline-center-line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 54.5%;
+  border-top: 3px solid rgba(255, 255, 255, 0.5);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.timeline .swiper-wrapper .swiper-slide  {
+  margin: 0px 60px !important;
+}
+
+
+@media (max-width: 576px) {
+  .flam-img {
+    top: 80%;
+  }
+}
+
+@media (min-width: 460px) and (max-width: 640px) {
+  .farm-flame-img {
+    top:500px;
+  }
+}
