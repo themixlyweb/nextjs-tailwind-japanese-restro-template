@@ -8,7 +8,7 @@
 <ul>
   <li>🚀 <a href="https://themixly.com/preview/2056/grocery-website-react-nextjs-template/](https://themixly.com/preview/2441/ramen-junction-react-next-js-template-for-japanese-restaurant/" target="_blank">Live Demo – Ramen Junction Template</a></li>
   <li>📦 <a href="https://github.com/themixlyweb/nextjs-grocery-website-template](https://themixly.com/themes/ramen-junction-react-next-js-template-for-japanese-restaurant/" target="_blank">Buy Full Version on Themixly</a></li>
-  <li>📦 <a href="https://github.com/themixlyweb/nextjs-grocery-website-template](https://github.com/themixlyweb/nextjs-japanese-restaurant-website-template" target="_blank">Download from GitHub (Free)</a></li>
+  <li>📦 <a href="https://github.com/themixlyweb/nextjs-tailwind-japanese-restro-template" target="_blank">Download from GitHub (Free)</a></li>
 </ul>
 
 <h2>🧩 Feature Comparison: GitHub Free vs Themixly Pro</h2>
